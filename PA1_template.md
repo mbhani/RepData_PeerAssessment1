@@ -191,7 +191,7 @@ plot(timeseriesdata1, type = "l", col = "blue", lwd = 2, main = "Time Series Plo
      , xlab = "Time Intervals (5-Minutes)", ylab = "Average Number of Steps Across All Days")
 ```
 
-![](PA1_template_files/figure-html/plot-1.png)<!-- -->
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/plot-1.png" />
 
 Next we calculate Which 5-minute interval, on average across all the days in the dataset, that contains the maximum number of steps
 
@@ -313,7 +313,7 @@ hist(activity.dailydata2$totalsteps , breaks = 30, col = "orange",
 abline(v = mean(activity.dailydata2$totalsteps), col = "blue", lwd = 2)
 ```
 
-![](PA1_template_files/figure-html/histogram2-1.png)<!-- -->
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/histogram2-1.png" />
 
 This is a barplot of the total daily steps data distributed over two months (using the new imputated data):
 
@@ -324,7 +324,7 @@ barplot(activity.dailydata2$totalsteps, main="Barplot For Total Daily Steps Dist
         ylab = "Total Daily Steps")
 ```
 
-![](PA1_template_files/figure-html/barplot2-1.png)<!-- -->
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/barplot2-1.png" />
 
 
 Calculate the mean of the total number of steps taken per day (using imputated data):  
@@ -507,6 +507,6 @@ xyplot(newtimeseries$`average#steps` ~ newtimeseries$interval | newtimeseries$we
        xlab = "Time Intervals (5-Minutes)", ylab = "Average Number of Steps Across All Days")
 ```
 
-![](PA1_template_files/figure-html/panelplot-1.png)<!-- -->
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/panelplot-1.png" />
 
 There are differences in activity patterns between weekdays and weekends
