@@ -113,7 +113,6 @@ dim(activity.dailydata)
 
 This is a histogram of the total number of steps taken each day  
 
-<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/histogram-1.png" />
 
 ```r
 hist(activity.dailydata$totalsteps , breaks = 30, col = "orange", 
@@ -121,23 +120,18 @@ hist(activity.dailydata$totalsteps , breaks = 30, col = "orange",
      xlab="Daily Steps")
 abline(v = mean(activity.dailydata$totalsteps), col = "blue", lwd = 2)
 ```
-
-![](PA1_template_files/figure-html/histogram-1.png)<!-- -->
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/histogram-1.png" />
 
 This is a barplot of the total daily steps data distributed over two months:
-
 
 ```r
 barplot(activity.dailydata$totalsteps, main="Barplot For Total Daily Steps Distribution",
         xlab="Date", names.arg = activity.dailydata$date, 
         ylab = "Total Daily Steps")
 ```
-
-![](PA1_template_files/figure-html/barplot-1.png)<!-- -->
-
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/barplot-1.png" />
 
 Calculate the mean of the total number of steps taken per day:  
-
 
 ```r
 meantotalsteps <- mean(activity.dailydata$totalsteps)
