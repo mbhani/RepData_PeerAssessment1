@@ -113,6 +113,7 @@ dim(activity.dailydata)
 
 This is a histogram of the total number of steps taken each day  
 
+<img src="https://github.com/mbhani/RepData_PeerAssessment1/blob/master/figure/histogram-1.png" />
 
 ```r
 hist(activity.dailydata$totalsteps , breaks = 30, col = "orange", 
